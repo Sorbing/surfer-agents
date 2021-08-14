@@ -1,0 +1,32 @@
+{
+  "name": "surfer-agents",
+  "version": "1.0.0",
+  "description": "Collection of the most popular browsers (user-agents) and devices",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tests/testGetAgent.js",
+    "build": "node bin/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sorbing/surfer-agents.git"
+  },
+  "keywords": [
+    "user-agent",
+    "browsers",
+    "devices",
+    "headless",
+    "puppeteer",
+    "playwright",
+    "parsing"
+  ],
+  "author": "Stanislav Butsenko <svbutsenko@gmail.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sorbing/surfer-agents/issues"
+  },
+  "homepage": "https://github.com/sorbing/surfer-agents#readme",
+  "devDependencies": {
+    "jsdom": "^17.0.0"
+  }
+}
